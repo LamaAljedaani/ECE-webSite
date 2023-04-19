@@ -1,0 +1,170 @@
+/*
+.container {
+  width: auto;
+  /* margin-left: auto;
+  margin-right: auto; 
+  margin: 0 auto;
+}
+
+.main-header {
+  background-color: #002d40;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+
+  height: 200px;
+}
+
+.containerInfo {
+  background-color: #d8ebf1;
+}
+.logoImg {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.details-Name {
+  margin: 200px;
+}
+.user-details-Name {
+  padding-top: 20px;
+  margin-left: 250px;
+}
+
+*/
+.container {
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #d8ebf1;
+  padding: 10px;
+  position: absolute;
+}
+.main-header {
+  background-color: #002d40;
+  width: 700px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+
+  height: 200px;
+}
+.containerInfo {
+  max-width: 800px;
+  width: 100%;
+  background: hsl(0, 0%, 100%);
+  padding: 25px 30px;
+  margin-top: 30px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 120px;
+}
+/* MAME*/
+.user-details-Name {
+  max-width: 400px;
+  width: 100%;
+  max-height: 80px;
+  height: 100%;
+  margin-bottom: 10px;
+}
+.details-Name {
+  margin-left: 280px;
+}
+.details-input-Name {
+  padding-left: 150px;
+  border-radius: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+/* Number and email*/
+
+.details-email {
+  margin-left: 75px;
+}
+.details-input-Email {
+  border-radius: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.details-Number {
+  margin-left: 90px;
+}
+.details-input-Number {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 5px;
+  max-width: 145px;
+  width: 100%;
+}
+/* Title*/
+.user-details-Title {
+  max-width: 400px;
+  width: 100%;
+  max-height: 80px;
+  height: 100%;
+}
+.input-box-title {
+  margin-top: 10px;
+}
+.details-title {
+  margin-left: 240px;
+}
+.details-input-massage {
+  padding-left: 150px;
+  border-radius: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+/* Massage*/
+.details-massage {
+  margin-left: 270px;
+}
+.details-input-massage2 {
+  padding-left: 150px;
+  border-radius: 5px;
+  padding-bottom: 100px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.input-box-massage {
+  padding-top: 10px;
+}
+
+.send {
+  margin-top: 10px;
+  margin-left: 120px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 15px;
+  color: #ffffff;
+  background: #f83f4b;
+  border-color: #f83f4b;
+}
+
+.colorwhire {
+  max-width: 800px;
+  width: 100%;
+
+  border-top-right-radius: 10px;
+
+  border-bottom-right-radius: 10px;
+}
+.commInfo {
+  max-height: 400px;
+  height: 100%;
+  padding: 25px 30px;
+  margin-top: 30px;
+  background: hsl(0, 0%, 100%);
+}
